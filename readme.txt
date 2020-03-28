@@ -30,3 +30,7 @@ path('user_activity/', views.index, name='index'),
 
 python manage.py runserver
 
+api - > http://127.0.0.1:8000/user_activity/
+result ->
+
+{"response": [{"id": 1, "user__name": "Ashley Chang", "start_time": "2020-03-28T11:42:05Z", "end_time": "2020-03-28T11:42:05Z"}, {"id": 2, "user__name": "Kelly Manning", "start_time": "2020-03-28T11:42:05Z", "end_time": "2020-03-28T11:42:05Z"}, {"id": 3, "user__name": "Monica Ferguson", "start_time": "2020-03-28T11:42:05Z", "end_time": "2020-03-28T11:42:05Z"}, {"id": 4, "user__name": "Kelly Francis", "start_time": "2020-03-28T11:42:05Z", "end_time": "2020-03-28T11:42:05Z"}, {"id": 5, "user__name": "Danielle Fisher", "start_time": "2020-03-28T11:42:06Z", "end_time": "2020-03-28T11:42:06Z"}, {"id": 6, "user__name": "Tiffany Gregory", "start_time": "2020-03-28T11:42:06Z", "end_time": "2020-03-28T11:42:06Z"}, {"id": 7, "user__name": "Steve Powell", "start_time": "2020-03-28T11:42:06Z", "end_time": "2020-03-28T11:42:06Z"}, {"id": 8, "user__name": "Tammy King", "start_time": "2020-03-28T11:42:06Z", "end_time": "2020-03-28T11:42:06Z"}, {"id": 9, "user__name": "Carolyn Taylor", "start_time": "2020-03-28T11:42:06Z", "end_time": "2020-03-28T11:42:06Z"}, {"id": 10, "user__name": "Tamara Rogers", "start_time": "2020-03-28T11:42:06Z", "end_time": "2020-03-28T11:42:06Z"}]}
